@@ -1,7 +1,7 @@
 ---
 # tasks file for ansible-vps-ubuntu17
 
-- name: Restart Remoteproxy Server
+- name: init vps
   script: scripts/init.sh
   tags:
     - init
