@@ -1,0 +1,4 @@
+- hosts: all
+  roles:
+  - role: vps-ubuntu17
+    become: yes
